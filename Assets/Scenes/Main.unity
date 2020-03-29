@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 10995716}
   - component: {fileID: 10995715}
   m_Layer: 0
-  m_Name: Voxel Tile Placer Circuit
+  m_Name: Generator Circuit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +174,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &11510818 stripped
 GameObject:
@@ -513,7 +513,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 24017d17df2d17a4aae1713e7e6724e5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 24017d17df2d17a4aae1713e7e6724e5,
         type: 3}
@@ -605,7 +605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 183882922}
   m_Layer: 0
-  m_Name: Tiles Simple
+  m_Name: Tiles Ocean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,7 +629,7 @@ Transform:
   - {fileID: 1603376853}
   - {fileID: 164565522}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &198933195 stripped
 GameObject:
@@ -668,7 +668,7 @@ GameObject:
   - component: {fileID: 238930201}
   - component: {fileID: 238930200}
   m_Layer: 0
-  m_Name: Voxel Tile Placer
+  m_Name: Generator Castle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VoxelSize: 0.1
   TileSideVoxels: 8
-  Weight: 50
+  Weight: 20
   Rotation: 1
   ColorsRight: 
   ColorsForward: 
@@ -909,7 +909,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: c80cc100ada92df4e98d98cf26d6e600,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: c80cc100ada92df4e98d98cf26d6e600,
         type: 3}
@@ -1111,7 +1111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 635295923}
   m_Layer: 0
-  m_Name: Tiles
+  m_Name: Tiles Castle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1140,7 +1140,7 @@ Transform:
   - {fileID: 655976487}
   - {fileID: 1100969231}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &643042872
 PrefabInstance:
@@ -1427,7 +1427,7 @@ Transform:
   - {fileID: 1552701082}
   - {fileID: 2007166640}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -1698,12 +1698,12 @@ GameObject:
   - component: {fileID: 817844484}
   - component: {fileID: 817844483}
   m_Layer: 0
-  m_Name: Voxel Tile Placer Simple
+  m_Name: Generator Ocean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &817844483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1736,7 +1736,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &828448058
 PrefabInstance:
@@ -3016,7 +3016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VoxelSize: 0.1
   TileSideVoxels: 8
-  Weight: 23
+  Weight: 15
   Rotation: 2
   ColorsRight: 
   ColorsForward: 
@@ -3645,7 +3645,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b71b2e852110d8545952a92d63244ff0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b71b2e852110d8545952a92d63244ff0,
         type: 3}
@@ -3816,6 +3816,57 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1624131365}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1673543543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1673543545}
+  - component: {fileID: 1673543544}
+  m_Layer: 0
+  m_Name: Generator Ocean Wfc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1673543544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673543543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004159cc6168a9049af275ee8ee1f479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TilePrefabs:
+  - {fileID: 932361991}
+  - {fileID: 1462618716}
+  - {fileID: 899552517}
+  - {fileID: 437966812}
+  - {fileID: 1603376855}
+  - {fileID: 164565524}
+  MapSize: {x: 10, y: 10}
+--- !u!4 &1673543545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673543543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1763313233 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: e92dc21e6aa8b244db7db6622029bd5e,
@@ -3836,12 +3887,124 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   VoxelSize: 0.1
   TileSideVoxels: 8
-  Weight: 10
+  Weight: 8
   Rotation: 2
   ColorsRight: 
   ColorsForward: 
   ColorsLeft: 
   ColorsBack: 
+--- !u!1 &1778019660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1778019662}
+  - component: {fileID: 1778019661}
+  m_Layer: 0
+  m_Name: Generator Circuit Wfc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1778019661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778019660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004159cc6168a9049af275ee8ee1f479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TilePrefabs:
+  - {fileID: 721046848}
+  - {fileID: 27030682}
+  - {fileID: 511074475}
+  - {fileID: 1045496989}
+  - {fileID: 1951803346}
+  - {fileID: 1388271675}
+  - {fileID: 1056930014}
+  - {fileID: 2074632657}
+  - {fileID: 1997841667}
+  - {fileID: 2050823691}
+  - {fileID: 174385817}
+  MapSize: {x: 15, y: 15}
+--- !u!4 &1778019662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778019660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1801119742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801119744}
+  - component: {fileID: 1801119743}
+  m_Layer: 0
+  m_Name: Generator Castle Wfc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1801119743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801119742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 004159cc6168a9049af275ee8ee1f479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TilePrefabs:
+  - {fileID: 673105884}
+  - {fileID: 198933196}
+  - {fileID: 1870654734}
+  - {fileID: 290047348}
+  - {fileID: 1272113204}
+  - {fileID: 2144600470}
+  - {fileID: 739514077}
+  - {fileID: 1212403344}
+  - {fileID: 1763313234}
+  - {fileID: 1597363714}
+  - {fileID: 11510819}
+  MapSize: {x: 15, y: 15}
+--- !u!4 &1801119744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801119742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1801520181 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2534866581884222612, guid: b71b2e852110d8545952a92d63244ff0,
