@@ -154,7 +154,7 @@ public class VoxelTilePlacerWfc : MonoBehaviour
                     backtracks++;
                 }
             }
-            if (innerIterations == maxIterations) break;
+            if (innerIterations == maxInnerIterations) break;
 
             List<VoxelTile> maxCountTile = possibleTiles[1, 1];
             Vector2Int maxCountTilePosition = new Vector2Int(1, 1);
